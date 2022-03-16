@@ -1,4 +1,4 @@
-# @nstudio/nativescript-checkbox
+# @bancha/nativescript-checkbox
 
 A NativeScript plugin to provide a checkbox widget, radio buttons are also possible.
 
