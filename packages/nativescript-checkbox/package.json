@@ -1,6 +1,6 @@
 {
   "name": "@bancha/nativescript-checkbox",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "NativeScript plugin for checkbox.",
   "main": "index",
   "typings": "index.d.ts",
