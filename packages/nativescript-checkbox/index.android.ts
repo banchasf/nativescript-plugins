@@ -3,9 +3,9 @@ import { BoxType } from './common';
 
 declare const global: any;
 
-const AppCompatCheckBox_Namespace = useAndroidX() ? androidx.appcompat.widget : (android.support as any).v7.widget;
+const AppCompatCheckBox_Namespace = androidx.appcompat.widget;
 
-const CompoundButtonCompat_Namespace = useAndroidX() ? androidx.core.widget : (android.support.v4 as any).widget;
+const CompoundButtonCompat_Namespace = androidx.core.widget;
 
 function useAndroidX() {
 	return global.androidx && com.google && com.google.android && com.google.android.material;
