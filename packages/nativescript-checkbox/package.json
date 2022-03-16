@@ -1,5 +1,5 @@
 {
-	"name": "@nstudio/nativescript-checkbox",
+	"name": "@merx/nativescript-checkbox",
 	"version": "2.0.4",
 	"description": "NativeScript plugin for checkbox.",
 	"main": "index",
