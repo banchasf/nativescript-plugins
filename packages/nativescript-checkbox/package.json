@@ -1,18 +1,18 @@
 {
-  "name": "@merx/nativescript-checkbox",
+  "name": "@bancha/nativescript-checkbox",
   "version": "2.0.4",
   "description": "NativeScript plugin for checkbox.",
   "main": "index",
   "typings": "index.d.ts",
   "nativescript": {
     "platforms": {
-      "ios": "6.0.0",
-      "android": "6.0.0"
+      "ios": "8.2.0",
+      "android": "8.2.0"
     }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nstudio/nativescript-plugins.git"
+    "url": "git+https://github.com/banchasf/nativescript-plugins.git"
   },
   "keywords": [
     "NativeScript",
