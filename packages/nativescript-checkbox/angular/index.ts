@@ -9,7 +9,7 @@ import {
 import { FormsModule, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { registerElement, BaseValueAccessor } from '@nativescript/angular';
 import { View } from '@nativescript/core';
-import { CheckBox } from '@nstudio/nativescript-checkbox';
+import { CheckBox } from '@bancha/nativescript-checkbox';
 
 function convertToInt(value): number {
   let normalizedValue;
