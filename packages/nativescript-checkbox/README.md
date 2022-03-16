@@ -3,7 +3,7 @@
 A NativeScript plugin to provide a checkbox widget, radio buttons are also possible.
 
 ```javascript
-ns plugin add @nstudio/nativescript-checkbox
+ns plugin add @bancha/nativescript-checkbox
 ```
 
 #### Platform controls used:
@@ -17,7 +17,7 @@ ns plugin add @nstudio/nativescript-checkbox
 ```XML
 <Page
   xmlns="http://schemas.nativescript.org/tns.xsd"
-  xmlns:CheckBox="@nstudio/nativescript-checkbox" loaded="pageLoaded">
+  xmlns:CheckBox="@bancha/nativescript-checkbox" loaded="pageLoaded">
   <ActionBar title="Native Checkbox" />
   <StackLayout>
     <CheckBox:CheckBox checked="{{ checkProp }}" text="{{ myCheckText }}" fillColor="{{ myCheckColor }}" id="myCheckbox" />
@@ -27,7 +27,7 @@ ns plugin add @nstudio/nativescript-checkbox
 ```
 
 ```typescript
-import { CheckBox } from '@nstudio/nativescript-checkbox';
+import { CheckBox } from '@bancha/nativescript-checkbox';
 import { Frame } from '@nativescript/core';
 
 public toggleCheck() {
@@ -44,7 +44,7 @@ public getCheckProp() {
 ### Angular Usage Sample:
 
 ```typescript
-import { TNSCheckBoxModule } from '@nstudio/nativescript-checkbox/angular';
+import { TNSCheckBoxModule } from '@bancha/nativescript-checkbox/angular';
 
 @NgModule({
   imports: [TNSCheckBoxModule]
@@ -81,7 +81,7 @@ export class SomeComponent {
 In your `main.js` (The file where the root Vue instance is created) register the element
 
 ```js
-import { CheckBox } from '@nstudio/nativescript-checkbox';
+import { CheckBox } from '@bancha/nativescript-checkbox';
 Vue.registerElement(
   'CheckBox',
   () => CheckBox,
