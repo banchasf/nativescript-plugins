@@ -1,24 +1,4 @@
-- [@nstudio/nativescript-airship](packages/nativescript-airship/README.md)
-- [@nstudio/nativescript-airship-adm](packages/nativescript-airship-adm/README.md)
-- [@nstudio/nativescript-airship-fcm](packages/nativescript-airship-fcm/README.md)
-- [@nstudio/nativescript-airship-hms](packages/nativescript-airship-hms/README.md)
-- [@nstudio/nativescript-barcodescanner](packages/nativescript-barcodescanner/README.md)
-- [@nstudio/nativescript-blur](packages/nativescript-blur/README.md)
-- [@nstudio/nativescript-camera-plus](packages/nativescript-camera-plus/README.md)
-- [@nstudio/nativescript-carousel](packages/nativescript-carousel/README.md)
 - [@nstudio/nativescript-checkbox](packages/nativescript-checkbox/README.md)
-- [@nstudio/nativescript-dynatrace](packages/nativescript-dynatrace/README.md)
-- [@nstudio/nativescript-embrace](packages/nativescript-embrace/README.md)
-- [@nstudio/nativescript-exoplayer](packages/nativescript-exoplayer/README.md)
-- [@nstudio/nativescript-fancyalert](packages/nativescript-fancyalert/README.md)
-- [@nstudio/nativescript-filterable-listpicker](packages/nativescript-filterable-listpicker/README.md)
-- [@nstudio/nativescript-input-mask](packages/nativescript-input-mask/README.md)
-- [@nstudio/nativescript-intercom](packages/nativescript-intercom/README.md)
-- [@nstudio/nativescript-loading-indicator](packages/nativescript-loading-indicator/README.md)
-- [@nstudio/nativescript-onfido](packages/nativescript-onfido/README.md)
-- [@nstudio/nativescript-plaid](packages/nativescript-plaid/README.md)
-- [@nstudio/nativescript-qr](packages/nativescript-qr/README.md)
-- [@nstudio/nativescript-tracking-transparency](packages/nativescript-tracking-transparency/README.md)
 
 # How to use?
 
@@ -41,6 +21,7 @@ At the prompt, enter the name of the new package.
 - Updates the `npm start` interactive display
 - Updates the README here to list the new package
 
+
 ## How to add Angular compatibility to a package
 
 ```
@@ -59,6 +40,11 @@ npm start
 - All the demo app's will be updated to isolate that 1 package and for supported IDE's (currently VS Code), the source code will also become isolated in the workspace.
 
 Note: _good to always clean the demo you plan to run after focusing. (You can clean any demo from `npm start` as well)_
+
+## How to verify the code before publish
+```
+nx run nativescript-checkbox:build.all
+```
 
 ## How to publish packages?
 
