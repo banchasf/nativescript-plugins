@@ -3,12 +3,12 @@ import { BoxType } from './common';
 
 declare const global: any;
 
-const AppCompatCheckBox_Namespace = androidx.appcompat.widget;
+const AppCompatCheckBox_Namespace = useAndroidX() ? androidx.appcompat.widget : (android.support as any).v7.widget;
 
-const CompoundButtonCompat_Namespace = androidx.core.widget;
+const CompoundButtonCompat_Namespace = useAndroidX() ? androidx.core.widget : (android.support.v4 as any).widget;
 
 function useAndroidX() {
-	return global.androidx && com.google && com.google.android && com.google.android.material;
+  return global.androidx && global.com.google && global.com.google.android && global.com.google.android.material;
 }
 
 export const checkedProperty = new Property<CheckBox, boolean>({
