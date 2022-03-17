@@ -116,7 +116,7 @@ module.exports = {
 		},
 		// packages
 		// build output is always in dist/packages
-		'@nstudio': {
+		'@bancha': {
 			// @nstudio/nativescript-filterable-listpicker
 			'nativescript-filterable-listpicker': {
 				build: {
@@ -208,13 +208,6 @@ module.exports = {
 					description: '@nstudio/nativescript-embrace: Build',
 				},
 			},
-			// @nstudio/nativescript-airship
-			'nativescript-airship': {
-				build: {
-					script: 'nx run nativescript-airship:build.all',
-					description: '@nstudio/nativescript-airship: Build',
-				},
-			},
 			// @nstudio/nativescript-airship-fcm
 			'nativescript-airship-fcm': {
 				build: {
@@ -222,13 +215,7 @@ module.exports = {
 					description: '@nstudio/nativescript-airship-fcm: Build',
 				},
 			},
-			// @nstudio/nativescript-airship-adm
-			'nativescript-airship-adm': {
-				build: {
-					script: 'nx run nativescript-airship-adm:build.all',
-					description: '@nstudio/nativescript-airship-adm: Build',
-				},
-			},
+
 			// @nstudio/nativescript-airship-hms
 			'nativescript-airship-hms': {
 				build: {

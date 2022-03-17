@@ -27,7 +27,7 @@
       "@demo/shared": [
         "tools/demo/index.ts"
       ],
-      "@nstudio/*": [
+      "@bancha/*": [
         "packages/*"
       ]
     }
